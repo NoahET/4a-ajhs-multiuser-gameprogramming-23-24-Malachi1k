@@ -1,4 +1,4 @@
-﻿// 02_collections, Malachi smith, 10-04-23 v0.1c
+﻿// 02_collections, Malachi smith, 10-04-23 v0.1d
 using System;
 
 namespace _02_colections
@@ -41,3 +41,9 @@ namespace _02_colections
             Console.WriteLine("GPA: \n" + String.Join("\n", GPA));
             Console.WriteLine();
 }           */
+
+            // determine Array Length
+            Console.WriteLine("The length of each array is:\n");
+            Console.WriteLine("breakfastFoods: " + breakfastFoods.Length);
+            Console.WriteLine("testScores: " + testScores.Length);
+            Console.WriteLine("GPA: " + GPA.Length);
