@@ -1,4 +1,4 @@
-﻿// 02_collections, Malachi smith, 10-04-23 v0.4a
+﻿// 02_collections, Malachi smith, 10-04-23 v0.5b
 using System;
 
 namespace _02_colections
@@ -98,7 +98,6 @@ namespace _02_colections
 
             // Incorrect Data Type 
             // testScores[0] = "Billy"; // If possible, use the correct Convert.() If not possible, manually change to correcr data type.
-            */
 
             // Common Array Methods - Sort() -- Sorts in alphabetical or numeric order, ascending. 
             int[] newIntArr = {25, -25, 0, -10, 15, 50, -35, 75, -155, 95, -65, 85};
@@ -108,6 +107,7 @@ namespace _02_colections
             Console.WriteLine();
             Console.WriteLine("newStringArr: \n" + String.Join(",", newStringArr));
             Console.WriteLine();
+
             // Sort() Each Array
             Array.Sort(newIntArr);
             Array.Sort(newStringArr);
@@ -116,5 +116,14 @@ namespace _02_colections
             Console.WriteLine();
             Console.WriteLine("newStringArr: \n" + String.Join(",", newStringArr));
             Console.WriteLine();
+            */
 
-            
+            // Common Array Methods - Min(), Max(), and Sum()
+            Console.WriteLine("The minimum value for newIntArr is:");
+            Console.WriteLine(newIntArr.Min());
+            Console.WriteLine("The maxium value for newIntArr is:");
+            Console.WriteLine(newIntArr.Max());
+            Console.WriteLine("The sum value for newIntArr is:");
+            Console.WriteLine(newIntArr.Sum());
+
+        
