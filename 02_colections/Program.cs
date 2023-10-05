@@ -1,4 +1,4 @@
-﻿// 02_collections, Malachi smith, 10-04-23 v0.3a
+﻿// 02_collections, Malachi smith, 10-04-23 v0.3b
 using System;
 
 namespace _02_colections
