@@ -1,4 +1,4 @@
-﻿// 02_collections, Malachi smith, 10-04-23 v0.1b
+﻿// 02_collections, Malachi smith, 10-04-23 v0.1c
 using System;
 
 namespace _02_colections
@@ -32,6 +32,12 @@ namespace _02_colections
             Console.WriteLine("GPA: \n" + String.Join(",", GPA));
             Console.WriteLine();
 
-        }
-    }
-}
+        }   /* Print Array Contents -- Each Element on Seperate Line
+    }        Console.WriteLine("The elements for each array are:\n");
+            Console.WriteLine("breakfastFoods: \n" + String.Join("\n", breakfastFoods));
+            Console.WriteLine();
+            Console.WriteLine("testScores: \n" + String.Join("\n", testScores));
+            Console.WriteLine();
+            Console.WriteLine("GPA: \n" + String.Join("\n", GPA));
+            Console.WriteLine();
+}           */
