@@ -1,11 +1,11 @@
-﻿// 02_collections, Malachi smith, 10-04-23 v0.2b
+﻿// 02_collections, Malachi smith, 10-04-23 v0.3a
 using System;
 
 namespace _02_colections
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             // Collections are variables that can store multiple values in one variable.
 
@@ -42,7 +42,7 @@ namespace _02_colections
             Console.WriteLine();
 }           */
 
-            // determine Array Length
+            /* determine Array Length
             Console.WriteLine("The length of each array is:\n");
             Console.WriteLine("breakfastFoods: " + breakfastFoods.Length);
             Console.WriteLine("testScores: " + testScores.Length);
@@ -55,7 +55,7 @@ namespace _02_colections
             Console.WriteLine("GPA: " + GPA[0]);
         
             // Access Last Element
-             Console.WriteLine("The last element in each array is:\n");
+            Console.WriteLine("The last element in each array is:\n");
             Console.WriteLine("breakfastFoods: " + breakfastFoods[breakfastFoods.Length - 1]);
             Console.WriteLine("testScores: " + testScores[testScores.Length - 1]);
             Console.WriteLine("GPA: " + GPA[GPA.Length - 1]);
@@ -66,3 +66,16 @@ namespace _02_colections
             Console.WriteLine("breakfastFoods: " + breakfastFoods[2]);
             Console.WriteLine("testScores: " + testScores[2]);
             Console.WriteLine("GPA: " + GPA[2]);
+            */
+
+            // Changing Array Elements -- 
+            breakfastFoods[0] = "Fried Squid";
+            testScores[0] = 59;
+            GPA[0] = 1.34f;
+             Console.WriteLine("The elements for each array are:\n");
+            Console.WriteLine("breakfastFoods: \n" + String.Join(",", breakfastFoods));
+            Console.WriteLine();
+            Console.WriteLine("testScores: \n" + String.Join(",", testScores));
+            Console.WriteLine();
+            Console.WriteLine("GPA: \n" + String.Join(",", GPA));
+            Console.WriteLine();
