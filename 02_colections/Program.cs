@@ -1,4 +1,4 @@
-﻿// 02_collections, Malachi smith, 10-04-23 v0.3b
+﻿// 02_collections, Malachi smith, 10-04-23 v0.4a
 using System;
 
 namespace _02_colections
@@ -91,3 +91,10 @@ namespace _02_colections
             Console.WriteLine();
             Console.WriteLine("GPA: \n" + String.Join(",", GPA));
             Console.WriteLine();
+
+            // Common Bugs working with arrays.
+            // Index Out of Bounds -- Accessing an that does not exist.
+            //Console.WriteLine(breakfastFoods[4]);  
+
+            // Incorrect Data Type 
+            // testScores[0] = "Billy"; // If possible, use the correct Convert.() If not possible, manually change to correcr data type.
