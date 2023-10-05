@@ -1,4 +1,4 @@
-﻿// 02_collections, Malachi smith, 10-04-23 v0.5b
+﻿// 02_collections, Malachi smith, 10-04-23 v0.6a
 using System;
 
 namespace _02_colections
@@ -16,7 +16,7 @@ namespace _02_colections
             -- Arrays are ordered, meaning each item has a fixed position.
             -- The position is known as the INDEX.
             -- First element in an array is index 0.
-            */
+            
 
             // Declaring and Defining an Array
             string[] breakfastFoods = {"Bacon", "Waffles", "Pankcakes", "Cereal", "Parfait" };
@@ -72,7 +72,7 @@ namespace _02_colections
             breakfastFoods[0] = "Fried Squid";
             testScores[0] = 59;
             GPA[0] = 1.34f;
-             Console.WriteLine("The elements for each array are:\n");
+            Console.WriteLine("The elements for each array are:\n");
             Console.WriteLine("breakfastFoods: \n" + String.Join(",", breakfastFoods));
             Console.WriteLine();
             Console.WriteLine("testScores: \n" + String.Join(",", testScores));
@@ -116,7 +116,7 @@ namespace _02_colections
             Console.WriteLine();
             Console.WriteLine("newStringArr: \n" + String.Join(",", newStringArr));
             Console.WriteLine();
-            */
+            
 
             // Common Array Methods - Min(), Max(), and Sum()
             Console.WriteLine("The minimum value for newIntArr is:");
@@ -125,5 +125,28 @@ namespace _02_colections
             Console.WriteLine(newIntArr.Max());
             Console.WriteLine("The sum value for newIntArr is:");
             Console.WriteLine(newIntArr.Sum());
+            */
 
+            // Create ArrayList -- Array that can have items added/deletd AND changed
+            var myArrayList = new ArrayList();
+            // Add items to ArrayList - .Add()
+            myArrayList.Add(5);
+            myArrayList.Add("First Name");
+            myArrayList.Add(true);
+            myArrayList.Add(0.0f);
+
+            Console.WriteLine(myArrayList[0]);
+            Console.WriteLine(myArrayList[1]);
+            Console.WriteLine(myArrayList[2]);
+            Console.WriteLine(myArrayList[3]);
+
+            // Create ArrayList with Values
+            var myArrayList2 = new ArrayList()
+            {
+                -10, "Last Name", false, 0.25f
+            };
+            Console.WriteLine(myArrayList[0]);
+            Console.WriteLine(myArrayList[1]);
+            Console.WriteLine(myArrayList[2]);
+            Console.WriteLine(myArrayList[3]);
         
