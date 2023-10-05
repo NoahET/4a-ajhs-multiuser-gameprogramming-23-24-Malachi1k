@@ -1,4 +1,4 @@
-﻿// 02_collections, Malachi smith, 10-04-23 v0.1a
+﻿// 02_collections, Malachi smith, 10-04-23 v0.1b
 using System;
 
 namespace _02_colections
@@ -20,8 +20,17 @@ namespace _02_colections
 
             // Declaring and Defining an Array
             string[] breakfastFoods = {"Bacon", "Waffles", "Pankcakes", "Cereal", "Parfait" };
-            int[] testscores = {95, 100, 25, 15, 27, 35};
+            int[] testScores = {95, 100, 25, 15, 27, 35};
             float[] GPA = {3.14f, 2.25f, 1.74f, 1.99f, 0.99f, 4.25f};
+
+            // Print Array Contents -- All Elements on Single Line
+            Console.WriteLine("The elements for each array are:\n");
+            Console.WriteLine("breakfastFoods: \n" + String.Join(",", breakfastFoods));
+            Console.WriteLine();
+            Console.WriteLine("testScores: \n" + String.Join(",", testScores));
+            Console.WriteLine();
+            Console.WriteLine("GPA: \n" + String.Join(",", GPA));
+            Console.WriteLine();
 
         }
     }
