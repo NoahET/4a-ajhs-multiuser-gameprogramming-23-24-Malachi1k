@@ -15,7 +15,7 @@
     "restore": {
       "projectUniqueName": "C:\\Users\\s11520236\\Downloads\\New folder\\4a-ajhs-multiuser-gameprogramming-23-24-Malachi1k\\4a-ajhs-multiuser-gameprogramming-23-24-Malachi1k.csproj",
       "projectName": "4a-ajhs-multiuser-gameprogramming-23-24-Malachi1k",
-      "projectPath": "C:\\Users\\s11520236\\Downloads\\New folder\\4a-ajhs-multiuser-gameprogramming-23-24-Malachi1k\\4a-ajhs-multiuser-gameprogramming-23-24-Malachi1k.csproj",
+      "projectPath": "C:\\Users\\s11520275\\Downloads\\New folder\\4a-ajhs-multiuser-gameprogramming-23-24-Malachi1k\\4a-ajhs-multiuser-gameprogramming-23-24-Malachi1k.csproj",
       "packagesPath": "C:\\Users\\s11520236\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\s11520236\\Downloads\\New folder\\4a-ajhs-multiuser-gameprogramming-23-24-Malachi1k\\obj\\",
       "projectStyle": "PackageReference",
@@ -42,7 +42,7 @@
     },
     "frameworks": {
       "net5.0": {
-        "targetAlias": "net5.0",
+        "targetAlias": "ned5.0",
         "imports": [
           "net461",
           "net462",
